@@ -1,0 +1,40 @@
+body{
+font-family: 'Lora', serif;
+font-size: 19px;
+}
+     .navbar {
+      margin-bottom: 0;
+	  border: 1px solid black;
+      border-radius: 0px;
+	  height: 100%;
+	  background-color: pink;
+	  
+    }
+       
+    .row.content {
+	height: 450px;
+	
+	}
+       
+    .sidenav {
+      padding-top: 20px;
+      background-color: lightgray;
+      height: 100%;
+	  border: 1px solid black;
+	
+    }
+   
+    footer {
+      background-color: pink;
+	  border: 1px solid black;
+      padding: 15px;
+    }
+	
+      @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+		
+      }
+      .row.content {height:auto;} 
+    }
